@@ -1,6 +1,7 @@
 module github.com/authelia/authelia/v4
 
 go 1.21
+toolchain go1.24.1
 
 require (
 	authelia.com/provider/oauth2 v0.1.12
@@ -15,7 +16,7 @@ require (
 	github.com/fsnotify/fsnotify v1.7.0
 	github.com/go-asn1-ber/asn1-ber v1.5.7
 	github.com/go-crypt/crypt v0.2.21
-	github.com/go-jose/go-jose/v4 v4.0.1
+	github.com/go-jose/go-jose/v4 v4.0.5
 	github.com/go-ldap/ldap/v3 v3.4.8
 	github.com/go-rod/rod v0.116.0
 	github.com/go-sql-driver/mysql v1.8.1
@@ -23,7 +24,7 @@ require (
 	github.com/go-webauthn/webauthn v0.10.2
 	github.com/golang-jwt/jwt/v5 v5.2.1
 	github.com/google/uuid v1.6.0
-	github.com/hashicorp/go-retryablehttp v0.7.6
+	github.com/hashicorp/go-retryablehttp v0.7.7
 	github.com/jackc/pgx/v5 v5.5.5
 	github.com/jmoiron/sqlx v1.4.0
 	github.com/knadh/koanf/parsers/yaml v0.1.0
@@ -40,15 +41,15 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	github.com/trustelem/zxcvbn v1.0.1
 	github.com/valyala/fasthttp v1.52.0
 	github.com/wneessen/go-mail v0.4.1
 	go.uber.org/mock v0.4.0
-	golang.org/x/net v0.25.0
-	golang.org/x/sync v0.7.0
-	golang.org/x/term v0.20.0
-	golang.org/x/text v0.15.0
+	golang.org/x/net v0.36.0
+	golang.org/x/sync v0.11.0
+	golang.org/x/term v0.29.0
+	golang.org/x/text v0.22.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -70,7 +71,7 @@ require (
 	github.com/go-crypt/x v0.2.14 // indirect
 	github.com/go-redis/redis/v8 v8.11.5 // indirect
 	github.com/go-webauthn/x v0.1.9 // indirect
-	github.com/golang/glog v1.2.0 // indirect
+	github.com/golang/glog v1.2.4 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/go-tpm v0.9.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
@@ -91,7 +92,7 @@ require (
 	github.com/prometheus/client_model v0.5.0 // indirect
 	github.com/prometheus/common v0.48.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
-	github.com/redis/go-redis/v9 v9.5.1 // indirect
+	github.com/redis/go-redis/v9 v9.5.5 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/savsgio/gotils v0.0.0-20240303185622-093b76447511 // indirect
 	github.com/test-go/testify v1.1.4 // indirect
@@ -103,9 +104,9 @@ require (
 	github.com/ysmood/got v0.34.1 // indirect
 	github.com/ysmood/gson v0.7.3 // indirect
 	github.com/ysmood/leakless v0.8.0 // indirect
-	golang.org/x/crypto v0.23.0 // indirect
+	golang.org/x/crypto v0.35.0 // indirect
 	golang.org/x/oauth2 v0.18.0 // indirect
-	golang.org/x/sys v0.20.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 )
